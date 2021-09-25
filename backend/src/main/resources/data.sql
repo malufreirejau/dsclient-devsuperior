@@ -1,0 +1,10 @@
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Jason Voorhees', '11111111111', 1800.0, TIMESTAMP WITH TIME ZONE '1946-06-13T13:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Frederick Charles Krueger', '11211211212', 3645.0, TIMESTAMP WITH TIME ZONE '1938-09-02T07:33:00Z', 6);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Amanda Young', '12112112121', 2780.0, TIMESTAMP WITH TIME ZONE '1970-03-20T09:50:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Billy Loomis', '21121121122', 4680.0, TIMESTAMP WITH TIME ZONE '1977-04-25T16:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Michael Myers', '11311311313', 2900.0, TIMESTAMP WITH TIME ZONE '1957-10-19T20:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Charles Lee Ray', '13113113131', 9872.0, TIMESTAMP WITH TIME ZONE '1950-01-24T04:00:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Annabelle Higgins', '11411411414', 1270.0, TIMESTAMP WITH TIME ZONE '1981-05-27T05:00:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Hannibal Lecter', '14114114141', 10360.0, TIMESTAMP WITH TIME ZONE '1938-01-30T06:00:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ben Willis', '11511511515', 1754.0, TIMESTAMP WITH TIME ZONE '1942-08-07T09:43:00Z', 3);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Adam Carr', '15115115151', 3100.0, TIMESTAMP WITH TIME ZONE '1972-09-14T02:54:00Z', 4);

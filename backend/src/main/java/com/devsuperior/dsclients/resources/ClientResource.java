@@ -1,14 +1,15 @@
 package com.devsuperior.dsclients.resources;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsclients.entities.Client;
+import com.devsuperior.dsclients.services.ClientService;
 
 
 
@@ -16,10 +17,12 @@ import com.devsuperior.dsclients.entities.Client;
 @RequestMapping(value = "/clients")
 public class ClientResource {
 
+	@Autowired
+	private ClientService service;
+	
 	@GetMapping
 	public ResponseEntity<List<Client>> findAll(){
-		List<Client> list = new ArrayList<>();
-		list.add(new Client(1L, "Jason Voorhees", "11111111111", 1800.0, 0));
+		List<Client> list = service.findAll();		
 		return ResponseEntity.ok().body(list);
 	}
 }
