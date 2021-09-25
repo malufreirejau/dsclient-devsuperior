@@ -8,3 +8,6 @@ INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Annabel
 INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Hannibal Lecter', '14114114141', 10360.0, TIMESTAMP WITH TIME ZONE '1938-01-30T06:00:00Z', 2);
 INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Ben Willis', '11511511515', 1754.0, TIMESTAMP WITH TIME ZONE '1942-08-07T09:43:00Z', 3);
 INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Adam Carr', '15115115151', 3100.0, TIMESTAMP WITH TIME ZONE '1972-09-14T02:54:00Z', 4);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Esther Coleman', '11611611616', 1480.0, TIMESTAMP WITH TIME ZONE '1957-11-30T05:16:00Z', 0);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('John Tombs', '16116116161', 6400.0, TIMESTAMP WITH TIME ZONE '1987-03-02T08:30:00Z', 2);
+INSERT INTO tb_client (name, cpf, income, birth_date, children) VALUES ('Theodore Robert Bundy', '11711711717', 3470.0, TIMESTAMP WITH TIME ZONE '1946-11-24T07:12:00Z', 3);
