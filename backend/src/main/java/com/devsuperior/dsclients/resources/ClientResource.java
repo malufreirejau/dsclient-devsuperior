@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devsuperior.dsclients.dto.ClientDTO;
-import com.devsuperior.dsclients.entities.Client;
 import com.devsuperior.dsclients.services.ClientService;
 
 
